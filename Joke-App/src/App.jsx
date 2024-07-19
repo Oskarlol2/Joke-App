@@ -31,10 +31,13 @@ const App = () => {
 
   return (
     <div className="App">
-      <div>
-        <img src={jokeLogo} className="logo" alt="joke logo"/>
+      <div style={{
+      display: "flex",
+      justifyContent: "center",
+      }}>
+        <img src={jokeLogo} className="logo" alt="joke logo" width="80%"/>
       </div>
-      <div style={{ width: 600, display: "flex", justifyContent: "center", flexDirection: "column", paddingLeft: 50}}>
+      <div style={{ width: "90vw", display: "flex", justifyContent: "center", flexDirection: "column", maxWidth: 600 }}>
         <div style={{ marginBottom: 10, display: "flex", flexDirection: "row" }}>
           <div className = "App_title_wrapper">
             Joke Generator!
