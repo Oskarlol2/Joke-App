@@ -1,9 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import jokeLogo from './assets/jokegen5.png'
-import { RxEnter } from "react-icons/rx";
 
 
 const App = () => {
